@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+}
+
+#bg {
+  width: 100%;
+  height: 100%;
+  background-color: lightskyblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#car1 {
+  width: 200px;
+  height: 200px;
+  background-color: crimson;
+}
+#car2 {
+  width: 200px;
+  height: 200px;
+  background-color: lightseagreen;
+}
+#car3 {
+  width: 200px;
+  height: 200px;
+  background-color: palevioletred;
+}

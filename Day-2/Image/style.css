@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://images.unsplash.com/photo-1693712001708-d6ac656ba468?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b3B0aW11cyUyMHByaW1lfGVufDB8fDB8fHww);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}

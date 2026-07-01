@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+}
+
+#parent {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background-color: crimson;
+}
+#child {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 50%;
+  background-color: lightseagreen;
+}

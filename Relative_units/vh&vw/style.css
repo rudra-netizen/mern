@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.parent {
+  width: 100vw;
+  height: 50vh;
+  background-color: wheat;
+}
+
+/*notes*/
+
+/* vh and vw are relative units. vh is relative to the height of the viewport and vw is relative to the width of the viewport. 1vh = 1% of the height of the viewport and 1vw = 1% of the width of the viewport */
+
+/* viewport is the visible area of the web page in the browser window. It is the area that is visible to the user without scrolling. The viewport size can be different for different devices and screen sizes. */

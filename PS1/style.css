@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.images {
+  width: 100%;
+
+  background-color: wheat;
+  display: grid;
+  gap: 20px;
+  grid-template-areas:
+    "image-a"
+    "image-b"
+    "image-c"
+    "image-d"
+    "image-e"
+    "image-f"
+    "image-g"
+    "image-h"
+    "image-i"
+    "image-j";
+}
+
+.image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: center;
+}
+
+.image-a {
+  grid-area: image-a;
+}
+.image-b {
+  grid-area: image-b;
+}
+.image-c {
+  grid-area: image-c;
+}
+.image-d {
+  grid-area: image-d;
+}
+.image-e {
+  grid-area: image-e;
+}
+.image-f {
+  grid-area: image-f;
+}
+.image-g {
+  grid-area: image-g;
+}
+.image-h {
+  grid-area: image-h;
+}
+.image-i {
+  grid-area: image-i;
+}
+.image-j {
+  grid-area: image-j;
+}
+
+@media screen and (min-width: 1080px) {
+  .images {
+    display: grid;
+    grid-template-areas:
+      "image-a image-a image-b image-c"
+      "image-a image-a image-d image-e"
+      "image-f image-g image-j image-j"
+      "image-h image-i image-j image-j";
+  }
+  .image {
+    aspect-ratio: 16/9;
+  }
+}

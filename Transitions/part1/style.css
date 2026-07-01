@@ -1,0 +1,24 @@
+body {
+  background-color: #111;
+  color: #fff;
+}
+button {
+  background-color: red;
+  color: wheat;
+}
+button:hover {
+  background-color: green;
+  color: blue;
+}
+#b:active {
+  color: red;
+}
+#a:focus {
+  color: blue;
+}
+li::before {
+  content: "*";
+}
+li::after {
+  content: "*";
+}

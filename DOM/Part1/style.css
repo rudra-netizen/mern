@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #111;
+  color: white;
+}
+
+.card {
+  height: 300px;
+  width: 300px;
+  background-color: wheat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  border-radius: 30%;
+}
+
+button {
+  border-radius: 10%;
+  padding: 10px;
+}
+
+.bdy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1,
+h4 {
+  color: red;
+}

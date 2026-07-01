@@ -1,0 +1,56 @@
+/*p {
+  font-family: "Courier New", Courier, monospace;
+  font-style: oblique;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 1px;
+  word-spacing: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-shadow: 10px 10px 10px black;
+  color: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.5);
+}*/
+
+.hie {
+  text-align: center;
+  font-weight: 800;
+  color: blue;
+  background: rgba(200, 200, 100, 0.7);
+  padding: 10px;
+}
+
+#card {
+  width: 200px;
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+
+  box-sizing: border-box;
+  background: red;
+}
+
+#para {
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 20px;
+  border-color: red;
+}
+
+#bx {
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(to right, red, yellow, pink, green, purple, blue);
+  box-shadow: 10px 10px 20px black;
+}
+
+#cx {
+  height: 200px;
+  width: 200px;
+  background-image: url("https://randomimageurl.com/assets/images/local/20260103_0519_Random%20Natural%20Landscape_simple_compose_01ke205qahfmftrexg9rs7svjn_compressed_q80.jpeg");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 10px 10px 20px black;
+}

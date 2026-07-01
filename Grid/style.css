@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.parent {
+  width: 1200px;
+  height: 1000px;
+  background-color: wheat;
+  display: grid;
+  /*grid-template-columns: 100px 100px 100px 200px;*/
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 100px 200px;
+}
+
+.child {
+  width: 100px;
+  height: 200px;
+  background-color: red;
+  border: 2px solid black;
+}

@@ -1,0 +1,26 @@
+body {
+  background-color: #111;
+  color: white;
+}
+div {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  animation: chacha 1s cubic-bezier(0.19, 1, 0.22, 1) 1s both;
+}
+@keyframes chacha {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: green;
+  }
+}
+/*@keyframes chacha {
+  0% {
+    background-color: red;
+  }
+  100% {
+    background-color: green;
+  }
+}*/
